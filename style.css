@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+
+#my-form{
+    margin-left: 3%;
+}
+
+#reversed{
+    text-align: center;
+    font-size: 40px;
+}
+
+    #word{
+        font-size: 50px;
+    }
+
+    #submit-btn{
+        font-size: 300%;
+    }
+
+    h3{
+        color: gold;
+    }
+
+    p{
+        color: silver;
+        text-align: right;
+    }
