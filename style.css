@@ -8,7 +8,9 @@ h1{
     text-align: center;
     color: silver;
 }
-
+h3{
+    color: gold;
+}
 #my-form{
     margin-left: 3%;
 }
