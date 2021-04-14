@@ -15,15 +15,14 @@ const reverse = (str) =>{
 
 myForm.addEventListener('submit', e =>{
     e.preventDefault();
+    reversedText.textContent = '';
     appendText();
     myForm.reset();
     })
-
 
 const appendText = () => {
     const str = document.getElementById('word').value;
     const text = document.createElement('h3');
     text.textContent = reverse(str);
     reversedText.appendChild(text)
-    
     }
